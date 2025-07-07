@@ -18,4 +18,4 @@ pip install -r requirements.txt
 ## How to Use
 python scraper.py
 
-## Output to scrapped_links.csv 
+## Output to scraped_links.csv 

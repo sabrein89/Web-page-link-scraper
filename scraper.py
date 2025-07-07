@@ -25,6 +25,6 @@ if response.status_code == 200:
         writer.writerow(["Name", "URL"])
         writer.writerows(data)
 
-    print("[✅] Done! File saved as scrapped_links.csv")
+    print("[✅] Done! File saved as scraped_links.csv")
 else:
     print(f"[!] Failed to load page. Status code: {response.status_code}")
